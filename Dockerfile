@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add rsyslog
+RUN apk add rsyslog rsyslog-elasticsearch
 ADD rsyslog.conf /etc/rsyslog.conf
 
 EXPOSE 514
