@@ -1,7 +1,7 @@
 FROM alpine
 
 RUN apk add rsyslog
-ADD rsyslogd.conf /etc/rsyslogd.conf
+ADD rsyslog.conf /etc/rsyslog.conf
 
 EXPOSE 514
 
